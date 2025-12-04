@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esto es el examen" />
+    <meta name="keywords" content="palabra1, palabra2, palabra3" />
+    <meta name="author" content="Nicolás Romero Rubiales" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Formulario Examen HTML5</title>
+</head>
+<body>
+<form action="insertar_cv.html" method="get">
+    <fieldset border="2">
+    <legend>Rellenar</legend>
+    <select name="sexo">
+        <option value="hombre">Hombre</option>
+        <option value="mujer">Mujer</option>
+    </select>
+    <br/>
+    <label for="color">Elija un color:
+        <input type="color" name="color" value="">
+    </label>
+    <br/>
+    <label for="fecha">Elija una fecha:
+            <input type="date" name="fecha" value="">
+    </label>
+    <br/>
+    <label for="lenguajes">
+        <input type="radio" name="lenguaje" value="lenguajejava">Java
+        <input type="radio" name="lenguaje" value="lenguajepython">Python
+        <input type="radio" name="lenguaje" value="lenguajehtml">HTML
+        <input type="radio" name="lenguaje" value="lenguajevisualbasic">Visual Basic
+        <input type="radio" name="lenguaje" value="lenguajecss">CSS
+    </label>
+    <br/>
+    <label>
+        <input type="checkbox" name="sexo" value="hombre">Hombre
+        <input type="checkbox" name="sexo" value="mujer">Mujer
+    </label>
+    <br/>
+    <label for="archivo">Elija un fichero:
+        <input type="file" name="archivo" value="">
+    </label>
+    <br/>
+    <label for="comentarios">
+    <textarea name="comentarios" rows="8" cols="60" placeholder="Por favor, escribe aquí"></textarea>
+    </label>
+    <br/>
+    <label for="instituto">Instituto
+        <input type="text" name="instituto" value="">
+    </label>
+    <br/>
+    <label for="estudios">Estudios elegidos
+        <input type="text" name="estudios" value="">
+    </label>
+    <br/>
+    <label for="nombre">Nombre
+        <input type="text" name="nombre" value="">
+    </label>
+    <br/>
+    <label for="apellidos">Apellidos
+        <input type="text" name="apellidos" value="">
+    </label>
+    <br/>
+    <label for="email">Email
+        <input type="email" name="email" value="">
+    </fieldset>
+    <fieldset border="2">
+    <legend>Rellene las opciones siguientes</legend>
+    <label>
+        <input type="checkbox" name="sistema" value="sistemawindows">Windows
+        <input type="checkbox" name="sistema" value="sistemamac">Mac
+        <input type="checkbox" name="sistema" value="sistemalinux">Linux
+    </label>
+    <br/>
+    <label for="fecha">Elija una hora:
+        <input type="time" name="hora" value="">
+    </label>
+    <br/>
+    <label for="lenguajes">
+        <input type="radio" name="procesador" value="procesadoramd"> AMD
+        <input type="radio" name="procesador" value="procesadorintel5"> Intel i5
+        <input type="radio" name="procesador" value="procesadorintel7"> Intel i7
+    </label>
+    <br/>
+    <label for="archivo">Elija un fichero:
+        <input type="file" name="archivo" value="">
+    </label>
+    </fieldset>
+    <br/>
+    <br/>
+    <br/>
+    <input type="submit" value="Enviar Formulario">
+    <input type="reset" value="Borrar los datos introducidos">
+</form>
+</body>
+</html>
+
